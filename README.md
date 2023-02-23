@@ -1,2 +1,2 @@
-# practica2
+# practicas
 Estefanía Fernanda Vázquez Osorno
