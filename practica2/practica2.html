@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Detalles de la foto</legend>
+            <p><legend>Titulo</legend>
+            <textarea rows="1" cols="59"></textarea></p>
+            <p><legend>Descripción</legend>
+            <textarea rows="7" cols="69"></textarea></p>
+            <div class="columna_izquierda">
+            <p>Continente<br/>
+            <select name="Continente">
+                <option value="Escoger">Escoger continente</option>
+                <option value="Africa">África</option>
+                <option value="Asia">Asia</option>
+                <option value="Europa">Europa</option>
+                <option value="Norte America">Norte América</option>
+                <option value="Sur America">Sur América</option></p>
+            </select>
+            <p>País<br/>
+            <select name="Continente">
+                <option value="País">País</option>
+                <option value="Canada">Canada</option>
+                <option value="Mexico">México</option>
+                <option value="Estados Unidos">Estados Unidos</option></p>
+            </select>
+            <p>Ciudad<br/><input type="text" name="ciudad" list="ciudades"></p>
+            <datalist id="ciudades">
+                <option>Calgary</option>
+                <option>Montreal</option>
+                <option>Toronto</option>
+                <option>Vancouver</option>
+                <option>Tlaxcala</option>
+            </datalist>
+            <p>
+            Acepto la licencia de software <input type="checkbox" name="condiciones" />
+            </p>
+            <p>
+            <label for="picture">Califica esta foto:</label><br/>
+            <input type="number" id="picture" name="picture" min="0" max="10">
+            </p>
+            Elija un color:<br/><input type="color"><br/>
+            <br/>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </div>
+            <p>
+                
+                <div class="columna_central">
+                <p>Copyright?<br/>
+                <input type="radio" name="copy" value="copy" />Todos los derechos reservados<br/><input type="radio" name="copy" value="copy" /> Creative Commons<br/>
+                Licencias Creative Commons<br/>
+                <input type="checkbox" name="licencias" />Atribucion<br/>
+                <input type="checkbox" name="licencias" />No comercial<br/>
+                <input type="checkbox" name="licencias" />No hay trabajos derivativos<br/>
+                <input type="checkbox" name="licencias" />Compartir por igual<br/>
+            </p>
+            <br/>
+            <br/>
+            <p>
+                Fecha de toma:<br/><input type="date">
+            </p>
+            <p>
+                Hora de toma:<br/><input type="time">
+            </p>
+        </div>
+        </fieldset>
+    </form>
+    
+</body>
+</html>

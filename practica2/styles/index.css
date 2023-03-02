@@ -1,0 +1,17 @@
+.columna_izquierda{
+    float: left;
+    width: 250px;
+    padding: 10px;
+}
+
+.columna_central{
+    margin-left: 350px;
+    margin-right: 450px;
+    padding: 10px;
+}
+
+.columna_derecha{
+    float: right;
+    width: 270px;
+    padding: 10px;
+}
